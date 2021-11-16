@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="uvc_camera" pkg="uvc_camera" type="uvc_camera_node" required="true" />
+  <node name="aws_detect_eyes_node" pkg="myface_recognition" type="aws_detect_eyes_node.py" required="true" output="screen"/>
+</launch>

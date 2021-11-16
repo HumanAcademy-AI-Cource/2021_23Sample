@@ -1,0 +1,4 @@
+scripts/images/*
+*.pyc
+camera.jpg
+detect_eyes_camera.jpg
